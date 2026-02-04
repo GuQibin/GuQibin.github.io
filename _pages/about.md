@@ -7,7 +7,7 @@ subtitle: M.Sc. Robotics @ NUS | Aspiring Robotics Software Engineer
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   address: >
     <p>National University of Singapore</p>
     <p>Singapore</p>
