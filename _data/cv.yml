@@ -1,85 +1,22 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Gu Qibin
-    - name: Current Role
-      value: Master Student in Robotics @ NUS
     - name: Email
       value: e1554167@u.nus.edu
-    - name: Phone
-      value: +86 13335718170
-    - name: Languages
-      value: Chinese (Native), English (Proficient)
 
 - title: Education
   type: time_table
   contents:
-    - title: MSc in Robotics
-      institution: National University of Singapore (NUS)
-      year: 2025 - Present
-      description: |
-        - **Expected Graduation:** Jan 2027
-        - **Core Courses:** Robot Vision and AI, Swarm Robotics, Machine Learning in Robotics.
-        - **Projects:** Language-Guided Navigation via 3D Scene Graphs.
+    - title: Master in Robotics
+      institution: NUS
+      year: 2025
 
-    - title: BSc in Computer Science (AI)
-      institution: University of Liverpool / Xi'an Jiaotong-Liverpool University
-      year: 2021 - 2025
-      description: |
-        - **Grade:** First Class Degree (Top 5%, GPA 82/100)
-        - **Awards:** University Academic Excellence Award (2022, 2023), Dean's Award (2025).
-
-- title: Experience
+- title: Projects
   type: time_table
   contents:
-    - title: Assistant Researcher (Intern)
-      institution: Zhejiang Hospital
-      year: Aug 2024 - Jan 2025
-      description: |
-        - Developed a **CNN-based diagnostic model** to classify severe pneumonia types from X-ray/CT imaging.
-        - Applied predictive analytics to categorize pneumonia severity, facilitating early diagnosis.
-        - Validated model accuracy and reliability under clinical conditions.
-
-    - title: Software Developer Intern
-      institution: Zhejiang DataQin Technology Co., LTD
-      year: Jun 2023 - Aug 2023
-      description: |
-        - Developed backend systems for a banking platform using **Java SpringBoot**.
-        - Optimized database performance by 30% using **MyBatis** and **Redis** caching.
-        - Implemented secure file management with **OCR** technology for automated bill processing.
-
-- title: Selected Projects
-  type: time_table
-  contents:
-    - title: Hybrid RL for Cluttered Manipulation
-      institution: NUS (ME5418)
-      year: Aug 2025 - Dec 2025
-      description: |
-        Designed a hierarchical framework decoupling strategic pushing (PPO) from deterministic grasping. Achieved **14% performance gain** over baselines in PyBullet simulation.
-
-    - title: Sim-to-Real 6-DoF Grasping
-      institution: Final Year Project
-      year: Sep 2024 - May 2025
-      description: |
-        Engineered a robust grasping pipeline bridging simulation and real-world **xArm6** robot. Developed a dual-stage network (PointNet++) for 6-DoF pose estimation, achieving **93% success rate**.
-
-    - title: Real-Time Eye-in-Hand Grasping
-      institution: Research Assistant
-      year: Jun 2024 - Sep 2024
-      description: |
-        Implemented a **Vision Transformer (ViT)** based architecture for grasp detection, outperforming GG-CNN baseline by 20% in physical success rate.
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Languages & Frameworks
-      items: 
-        - Python (Proficient), Java (SpringBoot), C++, SQL, JavaScript
-    - title: Robotics & AI
-      items:
-        - ROS 2 (Humble), PyBullet, Gazebo, MoveIt!, Open3D
-        - PyTorch, Transformers (ViT), Deep Reinforcement Learning (PPO)
-    - title: Tools & DevOps
-      items:
-        - Git, Docker, Linux, LaTeX, MATLAB nunc magna at sem. Sed in risus ac felis varius blandit.
+    - title: Hybrid RL Project
+      institution: NUS
+      year: 2025
+      description: This is a test description.
