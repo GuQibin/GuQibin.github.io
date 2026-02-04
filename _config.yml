@@ -12,7 +12,7 @@ description: Master student in Robotics at NUS
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 
-keywords: robotics, ai, computer vision, nus, me5400, gu qibin, navigation, 3d scene graphs 
+keywords: robotics, ai, computer vision, nus, gu qibin, navigation, 3d scene graphs 
 lang: en 
 icon: 🤖 # 修改为了机器人图标 (原为原子符号)
 
