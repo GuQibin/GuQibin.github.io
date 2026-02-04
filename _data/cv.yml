@@ -1,83 +1,95 @@
-cv:
-  name: Gu Qibin
-  location: Singapore
-  email: e1554167@u.nus.edu
-  phone: "+86 13335718170"
-  website: guqibin.github.io
-  social_networks:
-    - network: LinkedIn
-      username: Gu Qibin
-      url: https://www.linkedin.com/in/qibin-gu-294863390/
-    - network: GitHub
-      username: GuQibin
-      url: https://github.com/GuQibin
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Gu Qibin
+    - name: Role
+      value: Master Student in Robotics @ NUS
+    - name: Email
+      value: e1554167@u.nus.edu
+    - name: Phone
+      value: +86 13335718170
+    - name: Website
+      value: guqibin.github.io
+    - name: Languages
+      value: Chinese (Native), English (Proficient)
 
-  sections:
-    education:
-      - institution: National University of Singapore (NUS)
-        area: Robotics
-        degree: Master of Science
-        start_date: 2025-08
-        end_date: Present
-        highlights:
-          - "**Core Courses:** Robot Vision and AI, Swarm Robotics, Machine Learning in Robotics."
-          - "**Projects:** Language-Guided Navigation via 3D Scene Graphs."
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc in Robotics
+      institution: National University of Singapore (NUS)
+      year: 2025 - Present
+      description: |
+        - **Expected Graduation:** Jan 2027
+        - **Core Courses:** Robot Vision and AI, Swarm Robotics, Machine Learning in Robotics.
+        - **Projects:** Language-Guided Navigation via 3D Scene Graphs.
 
-      - institution: University of Liverpool / XJTLU
-        area: Computer Science (Artificial Intelligence)
-        degree: Bachelor of Science
-        start_date: 2021-09
-        end_date: 2025-07
-        highlights:
-          - "**Grade:** First Class Degree (Top 5%, GPA 82/100)"
-          - "**Awards:** University Academic Excellence Award (2022, 2023), Dean's Award (2025)."
+    - title: BSc in Computer Science (AI)
+      institution: University of Liverpool / XJTLU
+      year: 2021 - 2025
+      description: |
+        - **Grade:** First Class Degree (Top 5%, GPA 82/100)
+        - **Awards:** University Academic Excellence Award (2022, 2023), Dean's Award (2025).
 
-    experience:
-      - company: Zhejiang Hospital
-        position: Assistant Researcher (Intern)
-        start_date: 2024-08
-        end_date: 2025-01
-        highlights:
-          - Developed a **CNN-based diagnostic model** to classify severe pneumonia types from X-ray/CT imaging.
-          - Applied predictive analytics to categorize pneumonia severity, facilitating early diagnosis.
-          - Validated model accuracy and reliability under clinical conditions.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Researcher (Intern)
+      institution: Zhejiang Hospital
+      year: Aug 2024 - Jan 2025
+      description: |
+        - Developed a **CNN-based diagnostic model** to classify severe pneumonia types from X-ray/CT imaging.
+        - Applied predictive analytics to categorize pneumonia severity, facilitating early diagnosis.
+        - Validated model accuracy and reliability under clinical conditions.
 
-      - company: Zhejiang DataQin Technology Co., LTD
-        position: Software Developer Intern
-        start_date: 2023-06
-        end_date: 2023-08
-        highlights:
-          - Developed backend systems for a banking platform using **Java SpringBoot**.
-          - Optimized database performance by 30% using **MyBatis** and **Redis** caching.
-          - Implemented secure file management with **OCR** technology.
+    - title: Software Developer Intern
+      institution: Zhejiang DataQin Technology Co., LTD
+      year: Jun 2023 - Aug 2023
+      description: |
+        - Developed backend systems for a banking platform using **Java SpringBoot**.
+        - Optimized database performance by 30% using **MyBatis** and **Redis** caching.
+        - Implemented secure file management with **OCR** technology for automated bill processing.
 
-    projects:
-      - name: Hybrid RL for Cluttered Manipulation
-        start_date: 2025-08
-        end_date: 2025-12
-        highlights:
-          - "Designed a hierarchical framework decoupling strategic pushing (PPO) from deterministic grasping."
-          - "Achieved **14% performance gain** over baselines in PyBullet simulation."
+- title: Projects
+  type: time_table
+  contents:
+    - title: Hybrid RL for Cluttered Manipulation
+      institution: NUS (ME5418)
+      year: Aug 2025 - Dec 2025
+      description: |
+        - Designed a hierarchical framework decoupling strategic pushing (PPO) from deterministic grasping.
+        - Reduced search space effectively, accelerating convergence by **10x** compared to end-to-end baselines.
+        - Achieved **14% performance gain** over baselines in PyBullet simulation.
 
-      - name: Sim-to-Real 6-DoF Grasping
-        start_date: 2024-09
-        end_date: 2025-05
-        highlights:
-          - "Engineered a robust grasping pipeline bridging PyBullet simulation and real-world **xArm6** robot."
-          - "Developed a dual-stage network (PointNet++) for 6-DoF pose estimation, achieving **93% success rate**."
+    - title: Sim-to-Real 6-DoF Grasping
+      institution: Final Year Project
+      year: Sep 2024 - May 2025
+      description: |
+        - Engineered a robust grasping pipeline bridging PyBullet simulation and real-world **xArm6** robot.
+        - Developed a dual-stage network (PointNet++) for 6-DoF pose estimation.
+        - Achieved **93% success rate** on objects with distinct edges in real-world environments.
 
-      - name: Real-Time Eye-in-Hand Grasping
-        start_date: 2024-06
-        end_date: 2024-09
-        highlights:
-          - "Implemented a **Vision Transformer (ViT)** based architecture for grasp detection, outperforming GG-CNN baseline by 20%."
+    - title: Real-Time Eye-in-Hand Grasping
+      institution: Research Assistant
+      year: Jun 2024 - Sep 2024
+      description: |
+        - Implemented a **Vision Transformer (ViT)** based architecture for grasp detection.
+        - Leveraged Self-Attention mechanisms to capture global contextual information.
+        - Outperformed GG-CNN baseline by **20%**, achieving 93% physical grasp success rate.
 
-    skills:
-      - label: Programming
-        details: Python, Java (SpringBoot), C++, SQL, JavaScript
-      - label: Robotics
-        details: ROS 2 (Humble), PyBullet, Gazebo, MoveIt!, Open3D
-      - label: AI & ML
-        details: PyTorch, Transformers (ViT), Deep Reinforcement Learning (PPO)
-      - label: Tools
-        details: Git, Docker, Linux, LaTeX, MATLAB
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages & Frameworks
+      items: 
+        - Python (Proficient), Java (SpringBoot), C++, SQL, JavaScript
+    - title: Robotics & Simulation
+      items:
+        - ROS 2 (Humble), Isaac Sim, PyBullet, Gazebo, MoveIt!, Open3D
+    - title: AI & Deep Learning
+      items:
+        - PyTorch, Transformers (ViT), Deep Reinforcement Learning (PPO)
+    - title: Tools & DevOps
+      items:
+        - Git, Docker, Linux, LaTeX, MATLAB
