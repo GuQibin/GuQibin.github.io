@@ -30,7 +30,7 @@ Hello! I am **Gu Qibin**, a Master's student in Robotics at the **National Unive
 
 My career goal is to become a **Robotics Software Engineer**. I am passionate about bridging the gap between advanced algorithms and reliable software systems.
 
-### 🚀 What I Do
+### What I Do
 I specialize in **Robot Learning**, **Computer Perception**, and **Backend Development**. My unique background combines:
 * **Robotics & AI:** Deep Reinforcement Learning, Sim-to-Real transfer, and 6-DoF Grasping (PyTorch, Isaac Sim, ROS 2).
 * **Software Engineering:** Building scalable backend systems and enterprise applications (Java, SpringBoot, Docker, Redis).
