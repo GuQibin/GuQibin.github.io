@@ -5,8 +5,7 @@
 title: Gu Qibin
 first_name: Qibin
 last_name: Gu
-contact_note: >
-  # 这里如果留空，网页上就不会显示多余的文字。如果你想加一句 "Open to internship opportunities"，可以在这里写。
+contact_note: 
 
 description: Master student in Robotics at NUS
 footer_text: >
