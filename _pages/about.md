@@ -2,29 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master Student in Robotics @ <a href='https://nus.edu.sg/'>NUS</a> # 这里写你的身份
+subtitle: Master Student in Robotics @ <a href='https://nus.edu.sg/'>NUS</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-address: >
-<p>National University of Singapore</p>
+  address: >
+    <p>National University of Singapore</p>
     <p>Singapore</p>
-    <p>HangZhou China</p>    
+    <p>Hangzhou, China</p>
 
-selected_papers:false # includes a list of papers marked as "selected={true}"
+selected_papers: false # ⚠️ 修正：冒号后加了空格
+
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled:true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true # ⚠️ 修正：冒号后加了空格
+  scrollable: true 
+  limit: 5 
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false # 💡 建议：如果你还没写博客，先设为 false，否则首页会空一块
+  scrollable: true 
+  limit: 3 
 ---
 
 Here is a short bio. I am a Master's student at the National University of Singapore (NUS), majoring in Robotics.
