@@ -6,7 +6,7 @@ description: This is my academic and professional curriculum vitae.
 nav: true
 nav_order: 5
 cv_pdf: assets/pdf/Gu-Qibin-CV.pdf
-cv_format: "yaml"  # <--- 就是这一行！之前缺了它
+cv_format: rendercv  # ✅ 必须明确指定这一行
 toc:
   sidebar: left
 ---
