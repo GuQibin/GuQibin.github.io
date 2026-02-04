@@ -35,6 +35,6 @@ I specialize in **Robot Learning**, **Computer Perception**, and **Backend Devel
 * **Robotics & AI:** Deep Reinforcement Learning, Sim-to-Real transfer, and 6-DoF Grasping (PyTorch, Isaac Sim, ROS 2).
 * **Software Engineering:** Building scalable backend systems and enterprise applications (Java, SpringBoot, Docker, Redis).
 
-Previously, I graduated with a **First Class Degree (Top 5%)** from the University of Liverpool / XJTLU.
+Previously, I graduated with a First Class Degree from the University of Liverpool / XJTLU.
 
 I am currently open to **Internship** and **Full-time** opportunities starting from 2026.
