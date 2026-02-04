@@ -1,9 +1,12 @@
 cv:
   name: Gu Qibin
-  location: Singapore
+  label: Master Student in Robotics @ NUS
   email: e1554167@u.nus.edu
+  location: Singapore
   phone: "+86 13335718170"
   website: guqibin.github.io
+  summary: Master's student in Robotics at NUS specializing in Robot Learning, Computer Perception, and Backend Development.
+
   social_networks:
     - network: LinkedIn
       username: Gu Qibin
@@ -13,71 +16,74 @@ cv:
       url: https://github.com/GuQibin
 
   sections:
-    education:
+    Education:
       - institution: National University of Singapore (NUS)
+        location: Singapore
+        url: https://nus.edu.sg/
         area: Robotics
-        degree: Master of Science
+        studyType: Master of Science
         start_date: 2025-08
         end_date: Present
         highlights:
-          - "**Core Courses:** Robot Vision and AI, Swarm Robotics, Machine Learning in Robotics."
-          - "**Projects:** Language-Guided Navigation via 3D Scene Graphs."
+          - "Core Courses: Robot Vision and AI, Swarm Robotics, Machine Learning in Robotics."
+          - "Projects: Language-Guided Navigation via 3D Scene Graphs."
 
       - institution: University of Liverpool / XJTLU
+        location: Suzhou, China
         area: Computer Science (Artificial Intelligence)
-        degree: Bachelor of Science
+        studyType: Bachelor of Science
         start_date: 2021-09
         end_date: 2025-07
         highlights:
-          - "**Grade:** First Class Degree (Top 5%, GPA 82/100)"
-          - "**Awards:** University Academic Excellence Award (2022, 2023), Dean's Award (2025)."
+          - "Grade: First Class Degree (Top 5%, GPA 82/100)."
+          - "Awards: University Academic Excellence Award (2022, 2023), Dean's Award (2025)."
 
-    experience:
+    Experience:
       - company: Zhejiang Hospital
         position: Assistant Researcher (Intern)
+        location: Hangzhou, China
         start_date: 2024-08
         end_date: 2025-01
         highlights:
-          - Developed a **CNN-based diagnostic model** to classify severe pneumonia types from X-ray/CT imaging.
-          - Applied predictive analytics to categorize pneumonia severity, facilitating early diagnosis.
-          - Validated model accuracy and reliability under clinical conditions.
+          - "Developed a CNN-based diagnostic model to classify severe pneumonia types from X-ray/CT imaging."
+          - "Validated model accuracy and reliability under clinical conditions, facilitating early diagnosis."
 
       - company: Zhejiang DataQin Technology Co., LTD
         position: Software Developer Intern
+        location: Hangzhou, China
         start_date: 2023-06
         end_date: 2023-08
         highlights:
-          - Developed backend systems for a banking platform using **Java SpringBoot**.
-          - Optimized database performance by 30% using **MyBatis** and **Redis** caching.
-          - Implemented secure file management with **OCR** technology.
+          - "Developed backend systems for a banking platform using Java SpringBoot."
+          - "Optimized database performance by 30% using MyBatis and Redis caching."
+          - "Implemented secure file management with OCR technology."
 
-    projects:
+    Projects:
       - name: Hybrid RL for Cluttered Manipulation
+        summary: NUS ME5418 Course Project
         start_date: 2025-08
         end_date: 2025-12
         highlights:
           - "Designed a hierarchical framework decoupling strategic pushing (PPO) from deterministic grasping."
-          - "Achieved **14% performance gain** over baselines in PyBullet simulation."
+          - "Achieved 14% performance gain over baselines in PyBullet simulation."
 
       - name: Sim-to-Real 6-DoF Grasping
+        summary: Final Year Project
         start_date: 2024-09
         end_date: 2025-05
         highlights:
-          - "Engineered a robust grasping pipeline bridging PyBullet simulation and real-world **xArm6** robot."
-          - "Developed a dual-stage network (PointNet++) for 6-DoF pose estimation, achieving **93% success rate**."
+          - "Engineered a robust grasping pipeline bridging PyBullet simulation and real-world xArm6 robot."
+          - "Developed a dual-stage network (PointNet++) for 6-DoF pose estimation."
 
-      - name: Real-Time Eye-in-Hand Grasping
-        start_date: 2024-06
-        end_date: 2024-09
-        highlights:
-          - "Implemented a **Vision Transformer (ViT)** based architecture for grasp detection, outperforming GG-CNN baseline by 20%."
+    Skills:
+      - name: Programming
+        keywords: "Python, Java (SpringBoot), C++, SQL, JavaScript"
 
-    skills:
-      - label: Programming
-        details: Python, Java (SpringBoot), C++, SQL, JavaScript
-      - label: Robotics
-        details: ROS 2 (Humble), PyBullet, Gazebo, MoveIt!, Open3D
-      - label: AI & ML
-        details: PyTorch, Transformers (ViT), Deep Reinforcement Learning (PPO)
-      - label: Tools
-        details: Git, Docker, Linux, LaTeX, MATLAB
+      - name: Robotics
+        keywords: "ROS 2 (Humble), PyBullet, Gazebo, MoveIt!, Open3D"
+
+      - name: AI & Deep Learning
+        keywords: "PyTorch, Transformers (ViT), PPO"
+
+      - name: Tools
+        keywords: "Git, Docker, Linux, LaTeX, MATLAB"
